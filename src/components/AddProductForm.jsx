@@ -45,14 +45,14 @@ const AddProductForm = ({ addProduct }) => {
         placeholder="Product Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        className="border max-w-70 rounded-md p-2 flex-1"
+        className="border max-w-70 focus:outline-sky-500 rounded-md p-2 flex-1"
       />
       <input
         type="text"
         placeholder="Product Data (JSON)"
         value={data}
         onChange={(e) => setData(e.target.value)}
-        className="border max-w-70 rounded-md p-2 flex-1"
+        className="border max-w-70 focus:outline-sky-500 rounded-md p-2 flex-1"
       />
       <button
         onClick={handleSubmit}
